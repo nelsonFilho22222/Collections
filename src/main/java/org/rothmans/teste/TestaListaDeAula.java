@@ -1,4 +1,6 @@
-package org.rothmans;
+package org.rothmans.teste;
+
+import org.rothmans.principal.Aula;
 
 import java.util.*;
 

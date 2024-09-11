@@ -1,4 +1,4 @@
-package org.rothmans;
+package org.rothmans.principal;
 
 public class Aula  implements Comparable<Aula> {
     private String titulo;
