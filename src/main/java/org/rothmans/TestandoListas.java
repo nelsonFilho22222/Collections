@@ -3,7 +3,7 @@ package org.rothmans;
 
 import java.util.*;
 
-public class Main {
+public class TestandoListas {
     public static void main(String[] args) {
         String aula1 = "Modelando a classe aula.\n" , aula2 = "Conhecendo mais de listas.\n",
                 aula3 = "Trabalhando com Cursos e Sets.\n";
