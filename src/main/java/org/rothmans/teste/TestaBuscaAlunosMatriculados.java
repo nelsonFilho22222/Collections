@@ -4,8 +4,7 @@ import org.rothmans.principal.Aluno;
 import org.rothmans.principal.Aula;
 import org.rothmans.principal.Curso;
 
-public class TestaCursoComAluno {
-
+public class TestaBuscaAlunosMatriculados {
     public static void main (String[] args) {
         Curso javaColecao = new Curso("Dominando Comeleções do Java", "Paulo Henrique");
 
@@ -26,11 +25,11 @@ public class TestaCursoComAluno {
             System.out.println(a);
         });
 
-        System.out.println("Aluno a1 " + " esta matriculado ");
-        System.out.println(javaColecao.estaMatriculado(a1));
+        System.out.println("Verificando se o Aluno de matricula 5617 esta matriculado");
 
+        Aluno aluno = javaColecao.buscaMatriculado(345245);
 
-
+        System.out.println("aluno :" + aluno);
 
     }
 }
